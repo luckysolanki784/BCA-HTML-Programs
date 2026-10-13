@@ -1,19 +1,14 @@
-
-### . For `BCA-HTML-Programs` Repo
-
-```markdown
 # BCA-HTML-Programs
 
-All HTML programs from BCA 1st Year - learning HTML from scratch.
+All HTML programs from BCA 1st Year - Learning HTML from scratch.
 
-### 📂 What I Practiced
+### 📁 What I Practiced
 - `basic_structure.html` - Basic HTML Boilerplate
 - `heading_tags.html`, `p_align.html` - Text & Headings
-- `formatting_tags.html`, `sup_sub_tags.html`, `bdo_tag.html` - Formatting
-- `anchor_tag.html`, `anchor_scroll.html` - Links & Navigation
+- `formatting_tags.html`, `anchor_tag.html` - Formatting & Links
 
 ### 💡 Learning Outcome
-Understood the core structure of web pages, which is the first step towards Full Stack Development.
+Understood the core structure of web pages, first step towards Web Development.
 
 ### 👨‍💻 Author
-Lucky Solanki - BCA 1st Year
+Lucky Solanki - BCA 1st Year | Aspiring Software Engineer
