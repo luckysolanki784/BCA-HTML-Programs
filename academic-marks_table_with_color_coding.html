@@ -1,0 +1,103 @@
+<html >
+<head>
+    <meta charset="UTF-8">
+    <title>Student Marks Table</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        th, td {
+            border: 2px solid black;
+            padding: 8px;
+        }
+        
+        .html-col {
+            background-color: #ff4d4d;
+            color: white;
+        }
+        .clang-col {
+            background-color: #3399ff; 
+            color: white;
+        }
+        .cpp-col {
+            background-color: #ffff66; 
+            color: black;
+        }
+        .header-bg {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+    <table>
+        
+        <tr>
+            <th rowspan="3" class="header-bg">Roll No</th>
+            <th colspan="2" class="header-bg">Name</th>
+            <th colspan="6" class="header-bg">Marks</th>
+        </tr>
+        <tr>
+            <th rowspan="2" class="header-bg">First</th>
+            <th rowspan="2" class="header-bg">Last</th>
+            <th colspan="2" class="html-col">HTML</th>
+            <th colspan="2" class="clang-col">C Lang</th>
+            <th colspan="2" class="cpp-col">C++</th>
+        </tr>
+        <tr>
+            
+            <th class="html-col">TH</th>
+            <th class="html-col">Pr</th>
+            
+            <th class="clang-col">TH</th>
+            <th class="clang-col">Pr</th>
+            
+            <th class="cpp-col">TH</th>
+            <th class="cpp-col">Pr</th>
+        </tr>
+
+        
+        <tr>
+            <td>101</td>
+            <td>Rahul</td>
+            <td>Sharma</td>
+            <td>70</td>
+            <td>25</td>
+            <td>65</td>
+            <td>28</td>
+            <td>72</td>
+            <td>27</td>
+        </tr>
+
+        
+        <tr>
+            <td>102</td>
+            <td>Amit</td>
+            <td>Verma</td>
+            <td>68</td>
+            <td>24</td>
+            <td>58</td>
+            <td>26</td>
+            <td>64</td>
+            <td>25</td>
+        </tr>
+
+        
+        <tr>
+            <td>103</td>
+            <td>Pooja</td>
+            <td>Singh</td>
+            <td>75</td>
+            <td>29</td>
+            <td>70</td>
+            <td>30</td>
+            <td>78</td>
+            <td>29</td>
+        </tr>
+    </table>
+
+</body>
+</html>
